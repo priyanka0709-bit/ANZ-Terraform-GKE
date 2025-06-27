@@ -3,7 +3,7 @@ terraform {
 
   backend "gcs" {
     bucket = "devbucketpriyanka"         # ✅ Your existing bucket
-    prefix = "gke-cluster/terraform-state" # ✅ Folder path inside the bucket
+    prefix = "gke1-cluster/terraform-state" # ✅ Folder path inside the bucket
   }
 
   required_providers {
